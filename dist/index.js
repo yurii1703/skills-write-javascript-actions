@@ -70749,7 +70749,7 @@ function getIDToken(aud) {
 async function run() {
   const joke = await src_joke();
   console.log(joke);
-  setOutput("---joke", joke);
+  setOutput("joke", joke);
 }
 
 run();
